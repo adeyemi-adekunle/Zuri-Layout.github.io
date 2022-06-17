@@ -9,7 +9,6 @@
 @media only screen and (max-width: 600px) {
     
    .nav-bar {
- 
     margin: 10px;
    }
     .code_link {
@@ -34,7 +33,23 @@
  .luxury {
     border-radius:  0 0 10px 10px;
 }
+   /* grid */
 
+   
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+   'A A A B'
+   'C C D D'
+   'C C E E';
+ 
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 10px;
+    white-space: nowrap;
+ 
+ }
 }
 
 
