@@ -1,0 +1,41 @@
+/* Mobile View */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 375px) {
+    
+   .nav-bar {
+    margin: 5px;
+   }
+    .code_link {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .motor-container {
+         flex-wrap: wrap;
+         width: 350px;
+         margin: 50px auto;
+      
+    }
+
+ .sedans {
+ 
+    border-radius: 10px 10px 0 0;
+    
+ }
+ 
+ .luxury {
+    border-radius:  0 0 10px 10px;
+}
+
+}
+
+
+
+
